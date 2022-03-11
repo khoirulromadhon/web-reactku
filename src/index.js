@@ -6,6 +6,7 @@ import Test from './Test';
 import reportWebVitals from './reportWebVitals';
 import { render } from '@testing-library/react';
 import HelloComponent from './Component/HelloComponent';
+import BlogPost from "./Container/BlogPost/BlogPost";
 
 // const HelloComponent = () => {
 //   return <p>StateFullComponent</p>
@@ -17,12 +18,7 @@ import HelloComponent from './Component/HelloComponent';
 //   }
 // }
 // ReactDOM.render(<HelloComponent/>, document.getElementById('root'));
-ReactDOM.render( 
-  <React.StrictMode>
-    <HelloComponent />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<BlogPost/> ,document.getElementById('content'));
 // function HelloComponent() {
 //   return HelloComponent
 
