@@ -50,9 +50,9 @@ class Test extends React.Component {
         console.log("componentDidUpdate()"); 
     } 
 }  
-ReactDOM.render( 
-    <Test />, 
-    document.getElementById('root')
-); 
+// ReactDOM.render( 
+//     <Test />, 
+//     document.getElementById('root')
+// ); 
 
 export default Test;

@@ -7,8 +7,9 @@ const Post = (props) => {
                 <img src="http://placeimg.com/80/80/tech" alt="Gambar Tumbnail Artikel" />
             </div>
             <div className="konten-artikel">
-                <div className="judul-artikel">Judul Artikel</div>
-                <p className="isi-artikel">Isi Artikel</p>
+                <div className="judul-artikel">{props.judul}</div>
+                <p className="isi-artikel">{props.isi}</p>
+                <button className="btn btn-sm btn-warning" onClick={() => props.hapusArtikel(props.idArtikel)}>Hapus</button>
             </div>
         </div>
     )
