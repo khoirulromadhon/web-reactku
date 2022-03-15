@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import { render } from '@testing-library/react';
 import HelloComponent from './Component/HelloComponent';
 import BlogPost from "./Container/BlogPost/BlogPost";
+import Mahasiswa from "./Container/Tugas/Mahasiswa"
 
 // const HelloComponent = () => {
 //   return <p>StateFullComponent</p>
@@ -19,7 +20,7 @@ import BlogPost from "./Container/BlogPost/BlogPost";
 //   }
 // }
 // ReactDOM.render(<HelloComponent/>, document.getElementById('root'));
-ReactDOM.render(<BlogPost/> ,document.getElementById('content'));
+ReactDOM.render(<Mahasiswa/> ,document.getElementById('content'));
 // function HelloComponent() {
 //   return HelloComponent
 

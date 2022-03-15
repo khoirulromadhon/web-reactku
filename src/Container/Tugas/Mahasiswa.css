@@ -1,0 +1,66 @@
+.mahasiswa {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.gambar-tumbnail {
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.gambar-tumbnail img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.list-mahasiswa {
+    flex: 1;
+}
+
+.list-mahasiswa div.NIM {
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+}
+
+.list-mahasiswa div.nama {
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+}
+
+.list-mahasiswa div.alamat {
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+}
+
+.list-mahasiswa div.hp {
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+}
+
+.list-mahasiswa div.angkatan {
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+}
+
+.list-mahasiswa div.status {
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+}
+/* .konten-artikel p.isi-artikel {
+    font-size: 16px;
+    margin-bottom: 10px;
+} */
